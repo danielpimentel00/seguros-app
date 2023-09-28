@@ -1,0 +1,33 @@
+.solicitar-seguro-component {
+  & * {
+    box-sizing: border-box;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    .input-field {
+      color: black;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      input,
+      select {
+        width: 250px;
+        background-color: rgb(220, 220, 220);
+        padding: 5px;
+        color: #000;
+        font-size: 1.1em;
+        box-sizing: border-box;
+      }
+    }
+
+    button {
+      background-color: rgb(220, 220, 220);
+      color: black;
+      margin-top: 10px;
+    }
+  }
+}
